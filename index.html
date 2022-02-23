@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORMS</h1>
+    <form action="./index2.html">
+        <label for="name">Name</label>
+        <input type="text" placeholder="Enter your name..." name="Name" id="name" required>
+        <br><br>
+        <label for="gmail">Email</label>
+        <input type="email" placeholder="Enter your name..." name="Email" id="gmail" required>
+        <br><br>
+        <label for="pass">Password</label>
+        <input type="password" placeholder="Enter your name..." name="Password" id="pass" required>
+        <br><br>
+        <label for="lang">languages</label><br>
+        <input type="radio" name="language" value="React" id="lang">React <br>
+        <input type="radio" name="language" value="Angular" id="lang">Angular <br>
+        <input type="radio" name="language" value="Vue" id="lang">Vue <br>
+        <br>
+        <label for="course">Course</label><br>
+        <input type="checkbox" id="course1" name="Course" value="MERN">MERN <br>
+        <input type="checkbox" id="course2" name="Course" value="MEAN">MEAN <br>
+        <input type="checkbox" id="course3" name="Course" value="MEVN">MEVN
+        <br>
+        <br>
+        <label for="field">Field :</label>
+        <select name="field" id="field">
+            <option value="FrontEnd">FrontEnd</option>
+            <option value="BackEnd">BackEnd</option>
+            <option value="FullStack">FullStack</option>
+        </select>
+        <br>
+        <br>
+        <label for="text">Normal text area :</label><br>
+        <textarea name="area" id="text" placeholder="Text Area....." cols="30" rows="10"></textarea>
+        <br><br>
+        <label for="num">Phone Number</label>
+        <input type="number" id="num" name="Number">
+        <br><br>
+        <input type="submit">
+    </form>
+    <br>
+    <a href="./tables.html">Click Here</a>
+</body>
+</html>
